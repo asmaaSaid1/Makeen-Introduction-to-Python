@@ -9,5 +9,5 @@ if len(string)%2==0:
     
 #find middle character if tring is even
 else:
-    mid=(len(string)+1)//2-1
+    mid=len(string)//2
     print(string[mid])
